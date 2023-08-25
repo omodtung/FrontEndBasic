@@ -1,0 +1,253 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- raiting star -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="images/logo.png" width="125px" />
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href=""> Home</a></li>
+              <li><a href="">Product</a></li>
+              <li><a href="">About</a></li>
+              <li><a href=""> Contact</a></li>
+              <li><a href=""> Account</a></li>
+            </ul>
+          </nav>
+
+          <img src="images/cart.png" width="30px" height="30px" />
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+        </div>
+      </div>
+    </div>
+    <!-- single product details -->
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-3">
+          <img src="images/gallery-1.jpg" width="100%">
+        </div>
+        <div class="col-2">
+          <p>Home/ T-shirt</p>
+          <h1>Red Print -T-shirt by HRX</h1>
+          <h4>$50.00</h4>
+          <select>
+            <option>select size</option>
+            <option>XXL</option>
+            <option>XL</option>
+            <option>large</option>
+            <option>medium</option>
+          </select>
+          <input type="number" value = "1">
+          <a href="" class = "btn"> Add To Cart</a>
+          <h3> Product Details</h3>
+          <p> a little Text will here</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------feature product----------- -->
+
+    <div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-1.jpg" />
+          <h4>Red Printed Tshirt</h4>
+
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-2.jpg" />
+          <h4>Red Printed Tshirt</h4>
+
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/product-3.jpg" />
+          <h4>Red Printed Tshirt</h4>
+
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-1.jpg" />
+          <h4>Red Printed Tshirt</h4>
+
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-5.jpg" />
+          <h4>Red Printed Tshirt</h4>
+
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/product-6.jpg" />
+          <h4>Red Printed Tshirt</h4>
+
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-7.jpg" />
+          <h4>Red Printed Tshirt</h4>
+
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/product-8.jpg" />
+          <h4>Red Printed Tshirt</h4>
+
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-9.jpg" />
+          <h4>Red Printed Tshirt</h4>
+
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download app for android and ios mobile</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" alt="" />
+              <img src="images/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo-white.png" />
+            <p>checking text</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Usefull Link</h3>
+            <ul>
+              <li>coupons</li>
+              <li>Blog Spot</li>
+              <li>Return Policy</li>
+              <li>Join Aff</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>FaceBook</li>
+              <li>Twitter</li>
+              <li>ZaLo</li>
+              <li>TikTok</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">CopyRight - 2022 -The Tung</p>
+    </div>
+
+    <!-- ------------------- js for toggle menu--------- -->
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
